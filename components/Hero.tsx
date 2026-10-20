@@ -15,7 +15,7 @@ export default function Hero() {
         <div className="relative order-1 flex min-h-[260px] items-end justify-center md:min-h-[340px]">
           <div className="absolute inset-x-2 bottom-0 top-4 rounded-[45%_30%_12%_25%] bg-gradient-to-br from-[#e7f1f4] via-[#d5f0ed] to-[#9bdcd7]" />
           <div className="absolute bottom-8 left-2 h-24 w-24 rounded-full bg-white/40 blur-2xl" />
-          <Image src="/images/doctor-hero.png" alt="پزشک تندرست" width={620} height={420} priority className="relative z-10 max-h-[330px] w-full object-contain object-bottom md:max-h-[340px]" />
+          <Image src="/images/doctor-hero.svg" alt="پزشک تندرست" width={620} height={420} priority className="relative z-10 max-h-[330px] w-full object-contain object-bottom md:max-h-[340px]" />
           <div className="absolute bottom-12 right-0 z-20 hidden items-center gap-3 rounded-2xl bg-white px-4 py-3 shadow-lg shadow-slate-900/5 sm:flex">
             <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#d9f4ed] text-xl text-[#0f766e]">✓</span>
             <span><b className="block text-sm">سلامت شما</b><small className="mt-1 block text-xs text-slate-500">اولویت ماست</small></span>
